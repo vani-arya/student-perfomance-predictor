@@ -39,13 +39,7 @@ student-performance/
 
 ## 🚀 Getting Started
 
-### 1. Clone / download the project
-
-```bash
-cd student-performance
-```
-
-### 2. Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -58,13 +52,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. (Optional) Add your dataset
+###  Add your dataset
 
 Download the **StudentsPerformance.csv** dataset from Kaggle:
 https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
@@ -73,7 +67,7 @@ Rename it to `students.csv` and place it in the `data/` folder.
 
 > If no dataset is provided, a synthetic dataset is auto-generated for demo purposes.
 
-### 5. Run the training pipeline
+###  Run the training pipeline
 
 ```bash
 python -m src.pipeline.train_pipeline
@@ -85,7 +79,7 @@ This will:
 - Train 4 ML models
 - Save the best model to `artifacts/model.pkl`
 
-### 6. Launch the Streamlit app
+### Launch the Streamlit app
 
 ```bash
 python -m streamlit run app.py
@@ -153,6 +147,4 @@ Plots saved to `artifacts/`:
 
 ---
 
-## 👨‍💻 Author
 
-Built as a complete ML portfolio project.
